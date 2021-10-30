@@ -10,6 +10,7 @@ T minimo (T * Array, int num_elemen)
         if( Array[ i ] < min)
             min = Array [ i ];
 
+   
    return min;
 } ;
 
