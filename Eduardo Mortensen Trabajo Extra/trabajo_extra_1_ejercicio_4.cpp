@@ -11,7 +11,7 @@ template < typename T>
  void AreaDelTrapecio (T baseMayor, T baseMenor, T altura){
  T resultado;
  resultado= ((baseMayor+baseMenor)/2) * altura;
- cout<<"el resultado del resultado del promedio de tres valores es: "<<resultado<<endl;
+ cout<<"el resultado del area del triangulo: "<<resultado<<endl;
  }
 
 int main ()
