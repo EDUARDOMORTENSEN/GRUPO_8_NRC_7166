@@ -4,13 +4,13 @@
 using namespace std;
 
 template <typename T>
- void Promedio (T x, T y, T z);
+ void AreaDelTrapecio (T baseMayor, T baseMenor, T altura);
 
 
 template < typename T>
- void Promedio(T x, T y, T z){
+ void AreaDelTrapecio (T baseMayor, T baseMenor, T altura){
  T resultado;
- resultado= (x+y+z)/3;
+ resultado= ((baseMayor+baseMenor)/2) * altura;
  cout<<"el resultado del resultado del promedio de tres valores es: "<<resultado<<endl;
  }
 
@@ -19,12 +19,12 @@ int main ()
     int i = 360;
     int j = 230;
     int k = 120;
-    double f1 = 33.4;
+    double f1 = 53.4;
     double f2 = 22.9;
     double f3 = 44.9;
 
-    Promedio(i,j,k);
-    Promedio(f1, f2, f3);
+    AreaDelTrapecio(i,j,k);
+    AreaDelTrapecio(f1, f2, f3);
 
    return 0;
 }
