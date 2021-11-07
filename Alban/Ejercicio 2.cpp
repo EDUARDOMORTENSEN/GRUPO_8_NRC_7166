@@ -14,7 +14,7 @@ class Tabla {
    int elementos;
 };
 
-Tabla::Tabla(int n) : elementos(n) {
+Tala::Tabla(int n) : elementos(n) {
     pInt = new int[elementos];
 }
 
