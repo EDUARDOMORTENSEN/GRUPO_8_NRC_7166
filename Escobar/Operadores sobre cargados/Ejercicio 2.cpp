@@ -1,6 +1,6 @@
 /***************          Universidad de las Fuerzas Armadas ESPE         ************
  *				Carrera: Software													 *
- *				Autores:Richard Alban						                         *
+ *				Autores:Isaac Escobar						                         *
  *				Fecha de creación: 05/11/2021										 *
  *				Fecha de modificación: 07/11/2021									 *
  *************************************************************************************/
