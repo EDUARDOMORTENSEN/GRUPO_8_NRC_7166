@@ -1,10 +1,9 @@
-*/******************  Universidad de las Fuerzas Armadas ESPE  ************************
+/******************  Universidad de las Fuerzas Armadas ESPE  ************************
  *				Carrera: Software													 *
  *				Autor: Josue Ferrin                    							     *
  *				Fecha de creación: 5/10/2021										 *
  *				Fecha de modificación: 7/11/2021									 *
  *************************************************************************************/
-
 #include<iostream>
 #include<iomanip>
 
