@@ -1,7 +1,3 @@
-#include <iostream>
-#include "Complejo.h"
-using namespace std;
-
 int main(int argc, char** argv) {
 	Complejo<int> A(1,3),B(2,4);
 	Complejo<int> C;

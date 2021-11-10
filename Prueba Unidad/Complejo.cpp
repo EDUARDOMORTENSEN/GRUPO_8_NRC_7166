@@ -1,45 +1,50 @@
+
 #include "Complejo.h"
-#include <iostream>
-using namespace std;
-template <class T>
-Complejo<T>::Complejo(T real, T img){
+
+template<class T>
+Complejo<T>::Complejo() {
+
 	this->real=real;
 	this->img=img;
 }
-template <class T>
-void Complejo<T>::setReal(T real){
+
+template<class T>
+void Complejo<T>::setReal() {
+
 	this->real=real;
 }
-template <class T>
-void Complejo<T>::setImg(T img){
+
+template<class T>
+void Complejo<T>::setImg() {
+
 	this->img=img;
 }
-template <class T>
-T Complejo<T>::getReal(){
+
+template<class T>
+T Complejo<T>::getReal() {
+
 	return this->real;
 }
-template <class T>
-T Complejo<T>::getImg(){
+
+template<class T>
+T Complejo<T>::getImg() {
+
 	return this->img;
 }
-template <class T>
-Complejo<T>& Complejo<T>::operator +(const Complejo<T>  &A){
+
+template<class T>
+Complejo<T> Complejo<T>::operator +() {
+
 	this->img+= A.img;
 	this->real+= A.real;
 	return *this;
 }
-template <class T>
-Complejo<T>& Complejo<T>::operator -(const Complejo<T>  &A){
+
+template<class T>
+Complejo<T> Complejo<T>::operator -() {
+
 	this->img-= A.img;
 	this->real-= A.real;
 	return *this;
-}
-template class Complejo<int>;
-template class Complejo<float>;
-template class Complejo<double>;
-
-TEST(TestCaseName, TestName) {
-	EXPECT_EQ(1, 1);
-	EXPECT_TRUE(true);
 }
 
