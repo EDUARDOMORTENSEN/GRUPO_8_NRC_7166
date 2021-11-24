@@ -5,16 +5,22 @@
  *				Fecha de creación: 22/11/2021										 *
  *				Fecha de modificación: 23/11/2021									 *
  *************************************************************************************/
-#pragma once
-#include <iostream>
-class Nodo{
-	private:
-		int valor;
-		Nodo *siguiente;
-	public:
-		Nodo(int val, Nodo *sig=NULL){
-			this->valor=val;
-			this->siguiente=sig;
-		}
-	friend class Lista;
-};
+#ifndef NODO_H
+#define NODO_H
+#include<stdlib.h>
+class Nodo {
+    public:
+    Nodo(int);
+    int getDato();
+    void setDato(int);
+    Nodo *getSiguiente();
+    void setSiguiente(Nodo *);
+    Nodo *getAnterior();
+    void setAnterior(Nodo *);
+    private:
+    int dato;
+    Nodo *siguiente;
+    Nodo *anterior;
+
+    };
+#endif

@@ -5,16 +5,20 @@
  *				Fecha de creación: 22/11/2021										 *
  *				Fecha de modificación: 23/11/2021									 *
  *************************************************************************************/
-#pragma once
+#ifndef LISTACIRCULARDOBLE_H
+#define LISTACIRCULARDOBLE_H
+#include "Nodo.h"
 #include <iostream>
-class Nodo{
-	private:
-		int valor;
-		Nodo *siguiente;
-	public:
-		Nodo(int val, Nodo *sig=NULL){
-			this->valor=val;
-			this->siguiente=sig;
-		}
-	friend class Lista;
+class ListaCircularDoble
+
+{
+    public:
+    ListaCircularDoble();
+    void insertar(int);
+    bool eliminar(int);
+    void imprimir();
+    private:
+    Nodo *primero;
+    Nodo *ultimo;
 };
+#endif
