@@ -1,3 +1,9 @@
+/******************  Universidad de las Fuerzas Armadas ESPE  ************************
+ *				Carrera: Software													 *
+ *				Autores: Eduardo Mortensen							                     *
+ *				Fecha de creación: 03/11/2021										 *
+ *				Fecha de modificación: 03/11/2021									 *
+ *************************************************************************************/
 #include <iostream>
 #include <string>
 

@@ -11,6 +11,29 @@
 #include <conio.h>
 #include <iostream>
 using namespace std;
+<<<<<<< HEAD
+int main(int argc, char** argv) {
+    lista Lista;
+    Lista.Insertar(20);
+    Lista.Insertar(10);
+    Lista.Insertar(40);
+    Lista.Insertar(30);
+    Lista.Mostrar(ASCENDENTE);
+    Lista.Mostrar(DESCENDENTE);
+    Lista.Primero();
+    cout << "Primero: " << Lista.ValorActual() << endl;
+    Lista.Ultimo();
+    cout << "Ultimo: " << Lista.ValorActual() << endl;Lista.Borrar(10);
+    Lista.Borrar(15);
+    Lista.Borrar(45);
+    Lista.Borrar(40);
+
+    Lista.Mostrar(ASCENDENTE);
+    Lista.Mostrar(DESCENDENTE);
+    cin.get();
+    return 0;
+=======
+>>>>>>> bc8d0dd01709f8332cd57e471a606307c75fa71d
 
 #pragma once 
 
