@@ -1,6 +1,11 @@
 #include <iostream>
 #include <string>
-
+/******************  Universidad de las Fuerzas Armadas ESPE  ************************
+ *				Carrera: Software													 *
+ *				Autores: Eduardo Mortensen							                     *
+ *				Fecha de creación: 30/10/2021										 *
+ *				Fecha de modificación: 30/10/2021									 *
+ *************************************************************************************/
 using namespace std;
 
 template <typename T>
