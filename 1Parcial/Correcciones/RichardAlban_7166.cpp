@@ -296,6 +296,8 @@ void Fecha::CalcularEdad()
     int diaNa;
     int mesNa;
     int anioNa;
+
+    lista lista;
     Fecha fecha;
 
     bool condicionFecha = true;
@@ -311,6 +313,15 @@ void Fecha::CalcularEdad()
                 fecha.setAnioNa(anioNa);
                 condicionFecha = !fecha.verificarFechaNa();
             }
+
+   if (condicionFecha=true){
+            lista.Insertar(diaNa);
+            lista.Insertar(mesNa);
+            lista.Insertar(anioNa);
+            lista.Mostrar(1);
+    }
+
+
     int dia;
     int mes;
     int anio;
@@ -353,7 +364,7 @@ void Fecha::CalcularEdad()
         respMes = mes - mesNa; //Se le resta año nacimiento al actual
 
     cout << "\nUd. tiene:\n";
-    cout << " Edad: " <<anio - anioNa << endl; //Muestra edad
+    cout << " Edad: " <<anio - anioNa <<endl; //Muestra edad
     cout << " Mes: " << respMes << endl; //Muestra mes
     cout << " Dia: " << respFech << endl; //Muestra dia
 
