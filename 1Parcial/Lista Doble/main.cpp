@@ -20,11 +20,11 @@ int main(int argc, char** argv) {
     Lista.Primero();
     cout << "Primero: " << Lista.ValorActual() << endl;
     Lista.Ultimo();
-    cout << "Ultimo: " << Lista.ValorActual() << endl;
-    Lista.Borrar(10);
+    cout << "Ultimo: " << Lista.ValorActual() << endl;Lista.Borrar(10);
     Lista.Borrar(15);
     Lista.Borrar(45);
     Lista.Borrar(40);
+
     Lista.Mostrar(ASCENDENTE);
     Lista.Mostrar(DESCENDENTE);
     cin.get();
