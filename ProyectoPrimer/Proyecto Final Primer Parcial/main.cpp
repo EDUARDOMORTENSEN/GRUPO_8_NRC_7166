@@ -34,11 +34,9 @@ int main(int argc, char** argv)
         switch(opcion){
         case 1:
             lista.insertarCola(agregarPersonas(lista));
-            system("pause");
             break;
         case 2:
             listaMaestro.insertarColaMaestro(agregarMaestro(listaMaestro));
-            system("pause");
             break;
         case 3:
             lista.imprimir();
@@ -54,6 +52,7 @@ int main(int argc, char** argv)
             NotasFinales(lista,listaMaestro);
             cout<<endl;
             system("pause");
+            break;
         case 6:
             exit(0);
             break;
