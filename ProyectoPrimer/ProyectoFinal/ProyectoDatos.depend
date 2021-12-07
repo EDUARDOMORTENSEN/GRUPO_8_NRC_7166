@@ -1,0 +1,66 @@
+# depslib dependency file v1.0
+1631281104 source:c:\users\hp\desktop\nueva carpeta (4)\proyectov1\fecha.cpp
+	"Fecha.h"
+
+1631281104 c:\users\hp\desktop\nueva carpeta (4)\proyectov1\fecha.h
+	<ctime>
+
+1638839711 source:c:\users\hp\desktop\nueva carpeta (4)\proyectov1\lista.cpp
+	"Lista.h"
+
+1638838439 c:\users\hp\desktop\nueva carpeta (4)\proyectov1\lista.h
+	"Nodo.h"
+	"Persona.h"
+	"Maestro.h"
+	<iostream>
+	<stdlib.h>
+	<ctime>
+	<sstream>
+
+1638838078 c:\users\hp\desktop\nueva carpeta (4)\proyectov1\nodo.h
+	"Persona.h"
+	"Maestro.h"
+
+1631281104 c:\users\hp\desktop\nueva carpeta (4)\proyectov1\persona.h
+	<iostream>
+
+1638839855 c:\users\hp\desktop\nueva carpeta (4)\proyectov1\maestro.h
+	<iostream>
+
+1638839890 source:c:\users\hp\desktop\nueva carpeta (4)\proyectov1\maestro.cpp
+	"Persona.h"
+	"Maestro.h"
+
+1638885142 source:c:\users\hp\desktop\nueva carpeta (4)\proyectov1\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Persona.h"
+	"Maestro.h"
+	"Lista.h"
+	"Fecha.h"
+	"Nodo.h"
+	"procesos.h"
+	"Validacion.h"
+
+1638882374 c:\users\hp\desktop\nueva carpeta (4)\proyectov1\procesos.h
+	<iostream>
+	<cstring>
+	<string>
+	<fstream>
+	<iomanip>
+	<math.h>
+	"Persona.h"
+	"Fecha.h"
+	"Maestro.h"
+
+1631281104 c:\users\hp\desktop\nueva carpeta (4)\proyectov1\validacion.h
+	<iostream>
+	<stdlib.h>
+	<string.h>
+
+1638838123 source:c:\users\hp\desktop\nueva carpeta (4)\proyectov1\nodo.cpp
+	"Nodo.h"
+
+1631281104 source:c:\users\hp\desktop\nueva carpeta (4)\proyectov1\persona.cpp
+	"Persona.h"
+
