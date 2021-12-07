@@ -350,3 +350,61 @@
 1638893802 source:c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\1parcial\proyectov1\persona.cpp
 	"Persona.h"
 
+1638839711 source:c:\users\hp\desktop\tercer semestre\trabajos estructuras\git\grupo_8_nrc_7166\1parcial\proyectov1\lista.cpp
+	"Lista.h"
+
+1638838439 c:\users\hp\desktop\tercer semestre\trabajos estructuras\git\grupo_8_nrc_7166\1parcial\proyectov1\lista.h
+	"Nodo.h"
+	"Persona.h"
+	"Maestro.h"
+	<iostream>
+	<stdlib.h>
+	<ctime>
+	<sstream>
+
+1638838078 c:\users\hp\desktop\tercer semestre\trabajos estructuras\git\grupo_8_nrc_7166\1parcial\proyectov1\nodo.h
+	"Persona.h"
+	"Maestro.h"
+
+1631281104 c:\users\hp\desktop\tercer semestre\trabajos estructuras\git\grupo_8_nrc_7166\1parcial\proyectov1\persona.h
+	<iostream>
+
+1638839855 c:\users\hp\desktop\tercer semestre\trabajos estructuras\git\grupo_8_nrc_7166\1parcial\proyectov1\maestro.h
+	<iostream>
+
+1638839890 source:c:\users\hp\desktop\tercer semestre\trabajos estructuras\git\grupo_8_nrc_7166\1parcial\proyectov1\maestro.cpp
+	"Persona.h"
+	"Maestro.h"
+
+1638839855 source:c:\users\hp\desktop\tercer semestre\trabajos estructuras\git\grupo_8_nrc_7166\1parcial\proyectov1\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Persona.h"
+	"Maestro.h"
+	"Lista.h"
+	"Fecha.h"
+	"Nodo.h"
+	"procesos.h"
+	"Validacion.h"
+
+1631281104 c:\users\hp\desktop\tercer semestre\trabajos estructuras\git\grupo_8_nrc_7166\1parcial\proyectov1\procesos.h
+	<iostream>
+	<cstring>
+	<string>
+	<fstream>
+	<iomanip>
+	<math.h>
+	"Persona.h"
+	"Fecha.h"
+
+1631281104 c:\users\hp\desktop\tercer semestre\trabajos estructuras\git\grupo_8_nrc_7166\1parcial\proyectov1\validacion.h
+	<iostream>
+	<stdlib.h>
+	<string.h>
+
+1638838123 source:c:\users\hp\desktop\tercer semestre\trabajos estructuras\git\grupo_8_nrc_7166\1parcial\proyectov1\nodo.cpp
+	"Nodo.h"
+
+1631281104 source:c:\users\hp\desktop\tercer semestre\trabajos estructuras\git\grupo_8_nrc_7166\1parcial\proyectov1\persona.cpp
+	"Persona.h"
+
