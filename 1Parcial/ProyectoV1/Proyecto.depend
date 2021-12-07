@@ -289,3 +289,64 @@
 	"Persona.h"
 	"Maestro.h"
 
+1638893802 source:c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\1parcial\proyectov1\lista.cpp
+	"Lista.h"
+
+1638893802 c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\1parcial\proyectov1\lista.h
+	"Nodo.h"
+	"Persona.h"
+	"Maestro.h"
+	<iostream>
+	<stdlib.h>
+	<ctime>
+	<sstream>
+
+1638893802 c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\1parcial\proyectov1\nodo.h
+	"Persona.h"
+	"Maestro.h"
+
+1638893802 c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\1parcial\proyectov1\persona.h
+	<iostream>
+
+1638893802 c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\1parcial\proyectov1\maestro.h
+	<iostream>
+
+1638893802 source:c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\1parcial\proyectov1\maestro.cpp
+	"Persona.h"
+	"Maestro.h"
+
+1638893802 source:c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\1parcial\proyectov1\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Persona.h"
+	"Maestro.h"
+	"Lista.h"
+	"Fecha.h"
+	"Nodo.h"
+	"procesos.h"
+	"Validacion.h"
+
+1638893802 c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\1parcial\proyectov1\fecha.h
+	<ctime>
+
+1638893802 c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\1parcial\proyectov1\procesos.h
+	<iostream>
+	<cstring>
+	<string>
+	<fstream>
+	<iomanip>
+	<math.h>
+	"Persona.h"
+	"Fecha.h"
+
+1638893802 c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\1parcial\proyectov1\validacion.h
+	<iostream>
+	<stdlib.h>
+	<string.h>
+
+1638893802 source:c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\1parcial\proyectov1\nodo.cpp
+	"Nodo.h"
+
+1638893802 source:c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\1parcial\proyectov1\persona.cpp
+	"Persona.h"
+
