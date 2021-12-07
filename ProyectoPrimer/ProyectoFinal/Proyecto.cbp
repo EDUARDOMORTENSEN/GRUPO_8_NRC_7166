@@ -32,8 +32,6 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="Fecha.cpp" />
-		<Unit filename="Fecha.h" />
 		<Unit filename="Lista.cpp" />
 		<Unit filename="Lista.h" />
 		<Unit filename="Maestro.cpp" />

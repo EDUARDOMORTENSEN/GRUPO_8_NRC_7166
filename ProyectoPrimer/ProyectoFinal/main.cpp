@@ -18,11 +18,12 @@ int main(int argc, char** argv)
     Lista listaMaestro;
     Lista listaNotas;
 
-    cout<<".....UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE....."<<endl;
+
     int opcion;
     for(;;)
     {
         system("cls");
+        cout<<".....UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE....."<<endl;
         cout<<"1. AGREGAR ALUMNOS"<<endl;
         cout<<"2. AGREGAR MAESTROS"<<endl;
         cout<<"3. IMPRIMIR LISTA DE ALUMNOS"<<endl;

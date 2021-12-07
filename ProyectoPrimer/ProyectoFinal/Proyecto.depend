@@ -354,3 +354,68 @@
 1631281104 source:c:\users\hp\desktop\nueva carpeta (4)\proyectov1\persona.cpp
 	"Persona.h"
 
+1638893802 source:c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\proyectoprimer\proyectofinal\fecha.cpp
+	"Fecha.h"
+
+1638893802 c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\proyectoprimer\proyectofinal\fecha.h
+	<ctime>
+
+1638893802 source:c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\proyectoprimer\proyectofinal\lista.cpp
+	"Lista.h"
+
+1638893802 c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\proyectoprimer\proyectofinal\lista.h
+	"Nodo.h"
+	"Persona.h"
+	"Maestro.h"
+	<iostream>
+	<stdlib.h>
+	<ctime>
+	<sstream>
+
+1638893802 c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\proyectoprimer\proyectofinal\nodo.h
+	"Persona.h"
+	"Maestro.h"
+
+1638893802 c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\proyectoprimer\proyectofinal\persona.h
+	<iostream>
+
+1638893802 c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\proyectoprimer\proyectofinal\maestro.h
+	<iostream>
+
+1638893802 source:c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\proyectoprimer\proyectofinal\maestro.cpp
+	"Persona.h"
+	"Maestro.h"
+
+1638893802 source:c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\proyectoprimer\proyectofinal\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Persona.h"
+	"Maestro.h"
+	"Lista.h"
+	"Fecha.h"
+	"Nodo.h"
+	"procesos.h"
+	"Validacion.h"
+
+1638893802 c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\proyectoprimer\proyectofinal\procesos.h
+	<iostream>
+	<cstring>
+	<string>
+	<fstream>
+	<iomanip>
+	<math.h>
+	"Persona.h"
+	"Fecha.h"
+	"Maestro.h"
+
+1638893802 c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\proyectoprimer\proyectofinal\validacion.h
+	<iostream>
+	<stdlib.h>
+	<string.h>
+
+1638893802 source:c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\proyectoprimer\proyectofinal\nodo.cpp
+	"Nodo.h"
+
+1638893802 source:c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\proyectoprimer\proyectofinal\persona.cpp
+	"Persona.h"
+
