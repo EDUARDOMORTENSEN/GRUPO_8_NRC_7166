@@ -411,10 +411,10 @@
 	<stdlib.h>
 	<string.h>
 
-1638932931 source:c:\users\josue\documents\estructuras\grupo_8_nrc_7166\proyectoprimer\proyecto final primer parcial\lista.cpp
+1638932931 source:c:\users\hp\desktop\proyectov1\proyecto final primer parcial\lista.cpp
 	"Lista.h"
 
-1638892757 c:\users\josue\documents\estructuras\grupo_8_nrc_7166\proyectoprimer\proyecto final primer parcial\lista.h
+1638892757 c:\users\hp\desktop\proyectov1\proyecto final primer parcial\lista.h
 	"Nodo.h"
 	"Persona.h"
 	"Maestro.h"
@@ -423,21 +423,21 @@
 	<ctime>
 	<sstream>
 
-1638838078 c:\users\josue\documents\estructuras\grupo_8_nrc_7166\proyectoprimer\proyecto final primer parcial\nodo.h
+1638838078 c:\users\hp\desktop\proyectov1\proyecto final primer parcial\nodo.h
 	"Persona.h"
 	"Maestro.h"
 
-1631281104 c:\users\josue\documents\estructuras\grupo_8_nrc_7166\proyectoprimer\proyecto final primer parcial\persona.h
+1631281104 c:\users\hp\desktop\proyectov1\proyecto final primer parcial\persona.h
 	<iostream>
 
-1638932635 c:\users\josue\documents\estructuras\grupo_8_nrc_7166\proyectoprimer\proyecto final primer parcial\maestro.h
+1638932635 c:\users\hp\desktop\proyectov1\proyecto final primer parcial\maestro.h
 	<iostream>
 
-1638932629 source:c:\users\josue\documents\estructuras\grupo_8_nrc_7166\proyectoprimer\proyecto final primer parcial\maestro.cpp
+1638932629 source:c:\users\hp\desktop\proyectov1\proyecto final primer parcial\maestro.cpp
 	"Persona.h"
 	"Maestro.h"
 
-1638932646 source:c:\users\josue\documents\estructuras\grupo_8_nrc_7166\proyectoprimer\proyecto final primer parcial\main.cpp
+1638932646 source:c:\users\hp\desktop\proyectov1\proyecto final primer parcial\main.cpp
 	<iostream>
 	<stdlib.h>
 	"Persona.h"
@@ -447,7 +447,7 @@
 	"procesos.h"
 	"Validacion.h"
 
-1638933555 c:\users\josue\documents\estructuras\grupo_8_nrc_7166\proyectoprimer\proyecto final primer parcial\procesos.h
+1638966785 c:\users\hp\desktop\proyectov1\proyecto final primer parcial\procesos.h
 	<iostream>
 	<cstring>
 	<string>
@@ -457,15 +457,15 @@
 	"Persona.h"
 	"Maestro.h"
 
-1631281104 c:\users\josue\documents\estructuras\grupo_8_nrc_7166\proyectoprimer\proyecto final primer parcial\validacion.h
+1631281104 c:\users\hp\desktop\proyectov1\proyecto final primer parcial\validacion.h
 	<iostream>
 	<stdlib.h>
 	<string.h>
 
-1638838123 source:c:\users\josue\documents\estructuras\grupo_8_nrc_7166\proyectoprimer\proyecto final primer parcial\nodo.cpp
+1638838123 source:c:\users\hp\desktop\proyectov1\proyecto final primer parcial\nodo.cpp
 	"Nodo.h"
 
-1631281104 source:c:\users\josue\documents\estructuras\grupo_8_nrc_7166\proyectoprimer\proyecto final primer parcial\persona.cpp
+1631281104 source:c:\users\hp\desktop\proyectov1\proyecto final primer parcial\persona.cpp
 	"Persona.h"
 
 1638934710 source:c:\users\usuario\desktop\codigo\estructura de datos 2021-2022 4\grupo_8_nrc_7166\proyectoprimer\proyecto final primer parcial\lista.cpp
