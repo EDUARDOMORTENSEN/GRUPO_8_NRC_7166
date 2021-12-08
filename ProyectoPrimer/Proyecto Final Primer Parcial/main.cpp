@@ -1,3 +1,12 @@
+/******************  Universidad de las Fuerzas Armadas ESPE  ************************
+ *				Carrera: Software													 *
+ *				Autores: Eduardo Mortensen, Richard Alban,							 *
+ *						Isaac Escobar, Josue Ferrin,							     *
+ *				Fecha de creación: 29/11/2021										 *
+ *				Fecha de modificación: 07/12/2021									 *
+ *************************************************************************************/
+
+
 #include <iostream>
 #include <stdlib.h>
 #include "Persona.h"
@@ -34,11 +43,9 @@ int main(int argc, char** argv)
         switch(opcion){
         case 1:
             lista.insertarCola(agregarPersonas(lista));
-            system("pause");
             break;
         case 2:
             listaMaestro.insertarColaMaestro(agregarMaestro(listaMaestro));
-            system("pause");
             break;
         case 3:
             lista.imprimir();
@@ -54,6 +61,7 @@ int main(int argc, char** argv)
             NotasFinales(lista,listaMaestro);
             cout<<endl;
             system("pause");
+            break;
         case 6:
             exit(0);
             break;
@@ -106,13 +114,16 @@ Maestro agregarMaestro(Lista lista)
     string primerNombre;
     string apellido;
     string materiadicta;
+    int nrc;
     cout<<"Ingrese el primer nombre: ";
     primerNombre = ingresarLetra();
     cout<<"Ingrese su apellido: ";
     apellido= ingresarLetra();
     cout<<"Ingrese la Materia: ";
     materiadicta= ingresarLetra();
-    Maestro maestro(primerNombre,apellido,materiadicta);
+    cout<<"Ingrese el NRC: ";
+    nrc=ingresarEntero();
+    Maestro maestro(primerNombre,apellido,materiadicta,nrc);
     cout<<"Se ha ingresado correctamente los datos"<<endl;
     system("pause");
     return maestro;

@@ -1,3 +1,11 @@
+/******************  Universidad de las Fuerzas Armadas ESPE  ************************
+ *				Carrera: Software													 *
+ *				Autores: Eduardo Mortensen, Richard Alban,							 *
+ *						Isaac Escobar, Josue Ferrin,							     *
+ *				Fecha de creación: 29/11/2021										 *
+ *				Fecha de modificación: 07/12/2021									 *
+ *************************************************************************************/
+
 #include <iostream>
 #include <cstring>
 #include <string>
@@ -87,8 +95,8 @@ void generarMaterias(float nota1, float nota2, float nota3, Persona persona,Maes
     fichero<<"Cedula: "<<persona.getCedula()+"\n";
     fichero<<"Nombre: " +persona.getPrimerNombre()+" "+persona.getSegundoNombre()+ " " + persona.getApellido() +"\n";
     fichero<<"Direccion: " + persona.getDireccion()+"\t\tTelefono: "+persona.getTelefono()+ "\tCorreo: " + persona.getCorreo()+"@espe.edu.ec" +"\n";
-    fichero<<"Profesor: "+maestro.getPrimerNombre()+" "+maestro.getApellido() +" " +"\tAsignatura "+" "+maestro.getMateriadicta()+"\n";
-    fichero<<"Nota1: "<<fixed<<setprecision(2)<<nota1<<"\tNota2: "<<fixed<<setprecision(2)<<nota2<<"\tNota3: "<<fixed<<setprecision(2)<<nota3<<"\tPromedio: "<<fixed<<setprecision(2)<<promedioNotas<<"\n";
+    fichero<<"Profesor: "<<maestro.getPrimerNombre()<<" "<<maestro.getApellido()<<" "<<"\tAsignatura: "<<maestro.getMateriadicta()<<" "<<"\tNrc "<<setprecision(5)<<maestro.getNrc()<<"\n";
+    fichero<<"Nota1: "<<fixed<<setprecision(2)<<nota1<<"\tNota2: "<<fixed<<setprecision(2)<<nota2<<"\tNota3: "<<fixed<<setprecision(2)<<nota3<<"\n";
     if(promedioNotas>=14)
         {
             cout<<"Aprobado "<<endl;
@@ -101,9 +109,6 @@ void generarMaterias(float nota1, float nota2, float nota3, Persona persona,Maes
 
     fichero.close();
     char nombre[200];
-    /*strcpy(nombre,nombreArchivo.c_str());
-    system(nombre);*/
     strcpy(nombre,nombreAux.c_str());
     cout<<"Notas generadas correctamente!!"<<endl;
-    system("pause");
 }

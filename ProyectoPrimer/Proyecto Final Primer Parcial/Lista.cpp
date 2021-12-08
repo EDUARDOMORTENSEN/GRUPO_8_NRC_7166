@@ -265,6 +265,7 @@ void Lista::imprimirMaestro()
             std::cout<<"Apellido: "<<maestro.getApellido()<<std::endl;
             std::cout<<"Materia : "<<maestro.getMateriadicta()<<std::endl;
             std::cout<<"Correo: "<<maestro.getCorreo()<<"@espe.edu.ec"<<std::endl;
+            std::cout<<"Nrc: "<<maestro.getNrc()<<std::endl;
             auxiliar = auxiliar->getSiguiente();
         }
 

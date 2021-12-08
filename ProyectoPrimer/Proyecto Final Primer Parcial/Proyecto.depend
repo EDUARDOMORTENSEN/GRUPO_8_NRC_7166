@@ -354,10 +354,10 @@
 1631281104 source:c:\users\hp\desktop\nueva carpeta (4)\proyectov1\persona.cpp
 	"Persona.h"
 
-1638892774 source:c:\users\hp\desktop\nueva carpeta (4)\proyecto final primer parcial\lista.cpp
+1638932931 source:c:\users\hp\desktop\proyectofinal\proyecto final primer parcial\lista.cpp
 	"Lista.h"
 
-1638892757 c:\users\hp\desktop\nueva carpeta (4)\proyecto final primer parcial\lista.h
+1638892757 c:\users\hp\desktop\proyectofinal\proyecto final primer parcial\lista.h
 	"Nodo.h"
 	"Persona.h"
 	"Maestro.h"
@@ -366,27 +366,27 @@
 	<ctime>
 	<sstream>
 
-1638838078 c:\users\hp\desktop\nueva carpeta (4)\proyecto final primer parcial\nodo.h
+1638838078 c:\users\hp\desktop\proyectofinal\proyecto final primer parcial\nodo.h
 	"Persona.h"
 	"Maestro.h"
 
-1631281104 c:\users\hp\desktop\nueva carpeta (4)\proyecto final primer parcial\persona.h
+1631281104 c:\users\hp\desktop\proyectofinal\proyecto final primer parcial\persona.h
 	<iostream>
 
-1638839855 c:\users\hp\desktop\nueva carpeta (4)\proyecto final primer parcial\maestro.h
+1638932635 c:\users\hp\desktop\proyectofinal\proyecto final primer parcial\maestro.h
 	<iostream>
 
-1638839890 source:c:\users\hp\desktop\nueva carpeta (4)\proyecto final primer parcial\maestro.cpp
+1638932629 source:c:\users\hp\desktop\proyectofinal\proyecto final primer parcial\maestro.cpp
 	"Persona.h"
 	"Maestro.h"
 
-1638838123 source:c:\users\hp\desktop\nueva carpeta (4)\proyecto final primer parcial\nodo.cpp
+1638838123 source:c:\users\hp\desktop\proyectofinal\proyecto final primer parcial\nodo.cpp
 	"Nodo.h"
 
-1631281104 source:c:\users\hp\desktop\nueva carpeta (4)\proyecto final primer parcial\persona.cpp
+1631281104 source:c:\users\hp\desktop\proyectofinal\proyecto final primer parcial\persona.cpp
 	"Persona.h"
 
-1638894961 source:c:\users\hp\desktop\nueva carpeta (4)\proyecto final primer parcial\main.cpp
+1638932646 source:c:\users\hp\desktop\proyectofinal\proyecto final primer parcial\main.cpp
 	<iostream>
 	<stdlib.h>
 	"Persona.h"
@@ -396,7 +396,7 @@
 	"procesos.h"
 	"Validacion.h"
 
-1638895243 c:\users\hp\desktop\nueva carpeta (4)\proyecto final primer parcial\procesos.h
+1638933456 c:\users\hp\desktop\proyectofinal\proyecto final primer parcial\procesos.h
 	<iostream>
 	<cstring>
 	<string>
@@ -406,15 +406,22 @@
 	"Persona.h"
 	"Maestro.h"
 
-1631281104 c:\users\hp\desktop\nueva carpeta (4)\proyecto final primer parcial\validacion.h
+1631281104 c:\users\hp\desktop\proyectofinal\proyecto final primer parcial\validacion.h
 	<iostream>
 	<stdlib.h>
 	<string.h>
 
+<<<<<<< HEAD:ProyectoPrimer/ProyectoFinalV1/Proyecto.depend
 1638897728 source:c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\proyectoprimer\proyectofinalv1\lista.cpp
 	"Lista.h"
 
 1638897728 c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\proyectoprimer\proyectofinalv1\lista.h
+=======
+1638932931 source:c:\users\hp\desktop\proyectov1\proyecto final primer parcial\lista.cpp
+	"Lista.h"
+
+1638892757 c:\users\hp\desktop\proyectov1\proyecto final primer parcial\lista.h
+>>>>>>> 759e6f65f4e27f71edc8f73b067855bc511d38f6:ProyectoPrimer/Proyecto Final Primer Parcial/Proyecto.depend
 	"Nodo.h"
 	"Persona.h"
 	"Maestro.h"
@@ -423,6 +430,7 @@
 	<ctime>
 	<sstream>
 
+<<<<<<< HEAD:ProyectoPrimer/ProyectoFinalV1/Proyecto.depend
 1638897728 c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\proyectoprimer\proyectofinalv1\nodo.h
 	"Persona.h"
 	"Maestro.h"
@@ -438,6 +446,23 @@
 	"Maestro.h"
 
 1638897728 source:c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\proyectoprimer\proyectofinalv1\main.cpp
+=======
+1638838078 c:\users\hp\desktop\proyectov1\proyecto final primer parcial\nodo.h
+	"Persona.h"
+	"Maestro.h"
+
+1631281104 c:\users\hp\desktop\proyectov1\proyecto final primer parcial\persona.h
+	<iostream>
+
+1638932635 c:\users\hp\desktop\proyectov1\proyecto final primer parcial\maestro.h
+	<iostream>
+
+1638932629 source:c:\users\hp\desktop\proyectov1\proyecto final primer parcial\maestro.cpp
+	"Persona.h"
+	"Maestro.h"
+
+1638932646 source:c:\users\hp\desktop\proyectov1\proyecto final primer parcial\main.cpp
+>>>>>>> 759e6f65f4e27f71edc8f73b067855bc511d38f6:ProyectoPrimer/Proyecto Final Primer Parcial/Proyecto.depend
 	<iostream>
 	<stdlib.h>
 	"Persona.h"
@@ -447,7 +472,11 @@
 	"procesos.h"
 	"Validacion.h"
 
+<<<<<<< HEAD:ProyectoPrimer/ProyectoFinalV1/Proyecto.depend
 1638897728 c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\proyectoprimer\proyectofinalv1\procesos.h
+=======
+1638966785 c:\users\hp\desktop\proyectov1\proyecto final primer parcial\procesos.h
+>>>>>>> 759e6f65f4e27f71edc8f73b067855bc511d38f6:ProyectoPrimer/Proyecto Final Primer Parcial/Proyecto.depend
 	<iostream>
 	<cstring>
 	<string>
@@ -457,14 +486,82 @@
 	"Persona.h"
 	"Maestro.h"
 
+<<<<<<< HEAD:ProyectoPrimer/ProyectoFinalV1/Proyecto.depend
 1638897728 c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\proyectoprimer\proyectofinalv1\validacion.h
+=======
+1631281104 c:\users\hp\desktop\proyectov1\proyecto final primer parcial\validacion.h
+>>>>>>> 759e6f65f4e27f71edc8f73b067855bc511d38f6:ProyectoPrimer/Proyecto Final Primer Parcial/Proyecto.depend
 	<iostream>
 	<stdlib.h>
 	<string.h>
 
+<<<<<<< HEAD:ProyectoPrimer/ProyectoFinalV1/Proyecto.depend
 1638897728 source:c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\proyectoprimer\proyectofinalv1\nodo.cpp
 	"Nodo.h"
 
 1638897728 source:c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\proyectoprimer\proyectofinalv1\persona.cpp
+=======
+1638838123 source:c:\users\hp\desktop\proyectov1\proyecto final primer parcial\nodo.cpp
+	"Nodo.h"
+
+1631281104 source:c:\users\hp\desktop\proyectov1\proyecto final primer parcial\persona.cpp
+	"Persona.h"
+
+1638934710 source:c:\users\usuario\desktop\codigo\estructura de datos 2021-2022 4\grupo_8_nrc_7166\proyectoprimer\proyecto final primer parcial\lista.cpp
+	"Lista.h"
+
+1638934710 c:\users\usuario\desktop\codigo\estructura de datos 2021-2022 4\grupo_8_nrc_7166\proyectoprimer\proyecto final primer parcial\lista.h
+	"Nodo.h"
+	"Persona.h"
+	"Maestro.h"
+	<iostream>
+	<stdlib.h>
+	<ctime>
+	<sstream>
+
+1638934710 c:\users\usuario\desktop\codigo\estructura de datos 2021-2022 4\grupo_8_nrc_7166\proyectoprimer\proyecto final primer parcial\nodo.h
+	"Persona.h"
+	"Maestro.h"
+
+1638934710 c:\users\usuario\desktop\codigo\estructura de datos 2021-2022 4\grupo_8_nrc_7166\proyectoprimer\proyecto final primer parcial\persona.h
+	<iostream>
+
+1638934710 c:\users\usuario\desktop\codigo\estructura de datos 2021-2022 4\grupo_8_nrc_7166\proyectoprimer\proyecto final primer parcial\maestro.h
+	<iostream>
+
+1638934710 source:c:\users\usuario\desktop\codigo\estructura de datos 2021-2022 4\grupo_8_nrc_7166\proyectoprimer\proyecto final primer parcial\maestro.cpp
+	"Persona.h"
+	"Maestro.h"
+
+1638934710 source:c:\users\usuario\desktop\codigo\estructura de datos 2021-2022 4\grupo_8_nrc_7166\proyectoprimer\proyecto final primer parcial\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Persona.h"
+	"Maestro.h"
+	"Lista.h"
+	"Nodo.h"
+	"procesos.h"
+	"Validacion.h"
+
+1638934710 c:\users\usuario\desktop\codigo\estructura de datos 2021-2022 4\grupo_8_nrc_7166\proyectoprimer\proyecto final primer parcial\procesos.h
+	<iostream>
+	<cstring>
+	<string>
+	<fstream>
+	<iomanip>
+	<math.h>
+	"Persona.h"
+	"Maestro.h"
+
+1638934710 c:\users\usuario\desktop\codigo\estructura de datos 2021-2022 4\grupo_8_nrc_7166\proyectoprimer\proyecto final primer parcial\validacion.h
+	<iostream>
+	<stdlib.h>
+	<string.h>
+
+1638934710 source:c:\users\usuario\desktop\codigo\estructura de datos 2021-2022 4\grupo_8_nrc_7166\proyectoprimer\proyecto final primer parcial\nodo.cpp
+	"Nodo.h"
+
+1638934710 source:c:\users\usuario\desktop\codigo\estructura de datos 2021-2022 4\grupo_8_nrc_7166\proyectoprimer\proyecto final primer parcial\persona.cpp
+>>>>>>> 759e6f65f4e27f71edc8f73b067855bc511d38f6:ProyectoPrimer/Proyecto Final Primer Parcial/Proyecto.depend
 	"Persona.h"
 

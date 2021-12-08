@@ -1,0 +1,6 @@
+Cedula: 1727429340
+Nombre: Isaac Alejandro Escobar
+Direccion: Quito		Telefono: 992905126	Correo: iaescobar @espe.edu.ec
+Profesor:   	Asignatura:  	Nrc 0
+Nota1: 6.00	Nota2: 6.00	Nota3: 5.00
+Promedio: 5.67
