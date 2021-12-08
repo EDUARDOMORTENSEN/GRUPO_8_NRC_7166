@@ -1,5 +1,11 @@
 #ifndef FECHA_H_INCLUDED
 #define FECHA_H_INCLUDED
+#include <iostream>
+#include  <ctime>
+ #include <cstdlib>
+ #include <cstdio>
+ #include <cstring>
+
 using namespace std;
 class Fecha
 {
@@ -37,6 +43,17 @@ class Fecha
    		void validarFechaActual();
 
    		void CalcularEdad();
+
+   		bool entero(char *a);
+
+        int validarDiaNacimiento(string a);
+        int validarMesNacimiento(string a);
+        int validarAnnioNacimiento(string a);
+         int validarDia(string a);
+        int validarMes(string a);
+        int validarAnnio(string a);
+
+        void error();
 
 	private:
 		int dia;
@@ -148,7 +165,7 @@ bool Fecha::verificarFecha(){
 
         return false;
     }
-    if(annio>annioNacimiento || annio<2021 ){
+    if(annio>annioNacimiento && annio<2021 ){
 
         return false;
     }
@@ -168,12 +185,102 @@ bool Fecha::verificarFechaNacimiento(){
         return false;
     }
 
-    if(annioNacimiento<1900 || annioNacimiento>2021){
+    if(annioNacimiento<1900){
         return false;
     }
 
+
+
+
     return true;
+
+
 }
+bool Fecha:: entero(char *a){
+      for(int i = 0; i<strlen(a); i++){
+           if(!isdigit(a[i])){
+                return false;
+           }
+      }
+      return true;
+ }
+int Fecha::validarDia(string a){
+     char dia[100];
+      do{
+           cout<<a;
+           cin>>dia;
+           if(!entero(dia)){
+           error();
+           }
+      }while(!entero(dia));
+      return atoi(dia);
+ }
+
+  int Fecha::validarMes(string a){
+     char mes[100];
+      do{
+           cout<<a;
+           cin>>mes;
+           if(!entero(mes)){
+           error();
+           }
+      }while(!entero(mes));
+      return atoi(mes);
+ }
+
+ int Fecha::validarAnnio(string a){
+     char annio[100];
+      do{
+           cout<<a;
+           cin>>annio;
+           if(!entero(annio)){
+           error();
+           }
+      }while(!entero(annio));
+      return atoi(annio);
+ }
+
+
+
+
+ int Fecha::validarDiaNacimiento(string a){
+     char diaNacimiento[100];
+      do{
+           cout<<a;
+           cin>>diaNacimiento;;
+           if(!entero(diaNacimiento)){
+           error();
+           }
+      }while(!entero(diaNacimiento));
+      return atoi(diaNacimiento);
+ }
+
+  int Fecha::validarMesNacimiento(string a){
+     char mesNacimiento[100];
+      do{
+           cout<<a;
+           cin>>mesNacimiento;
+           if(!entero(mesNacimiento)){
+           error();
+           }
+      }while(!entero(mesNacimiento));
+      return atoi(mesNacimiento);
+ }
+
+ int Fecha::validarAnnioNacimiento(string a){
+     char annioNacimiento[100];
+      do{
+           cout<<a;
+           cin>>annioNacimiento;
+           if(!entero(annioNacimiento)){
+           error();
+           }
+      }while(!entero(annioNacimiento));
+      return atoi(annioNacimiento);
+ }
+ void Fecha::error(){
+      cout<<"\nDato no valido, verifique.."<<endl;
+ }
 
 void Fecha::CalcularEdad()
 {
@@ -186,20 +293,21 @@ void Fecha::CalcularEdad()
     bool condicionFecha = true;
      Lista lista;
     while(condicionFecha){
+string mensaje="Ingrese un   numero entero: ";
 
                 printf("//FECHA DE NACIMIENTO// \n ");
                 printf("\n");
                 printf("por favor ingrese el dia de su nacimiento: ");
                 printf("\n");
-                cin>>diaNacimiento;
+                diaNacimiento=validarDiaNacimiento(mensaje);
                 fecha.setDiaNacimiento(diaNacimiento);
                 printf("por favor ingrese el mes de su nacimiento: ");
                 printf("\n");
-                cin>>mesNacimiento;
+                mesNacimiento=validarMesNacimiento(mensaje);
                 fecha.setMesNacimiento(mesNacimiento);
                 printf("por favor ingrese el año de su nacimiento: ");
                 printf("\n");
-                cin>>annioNacimiento;
+                annioNacimiento=validarAnnioNacimiento(mensaje);
                 fecha.setAnnioNacimiento(annioNacimiento);
                 condicionFecha = !fecha.verificarFechaNacimiento();
 
@@ -216,24 +324,42 @@ void Fecha::CalcularEdad()
     bool condicionFecha2 = true;
 
     while(condicionFecha2){
+    string mensaje="Ingrese un   numero entero: ";
                 printf("//FECHA ACTUAL// \n ");
                 printf("\n");
                 printf("por favor ingrese el dia de hoy: ");
                 printf("\n");
-                cin>>dia;
+                dia=validarDia(mensaje);
                 fecha2.setDia(dia);
                 printf("por favor ingrese el mes actual: ");
                 printf("\n");
-                cin>>mes;
+                mes=validarMes(mensaje);
                 fecha2.setMes(mes);
                 printf("por favor ingrese el año actual: ");
                 printf("\n");
-                cin>>annio;
+                annio=validarAnnio(mensaje);
                 fecha2.setAnnio(annio);
                 condicionFecha2 = !fecha2.verificarFecha();
             }
 
-    int respectivaFecha , respectivoMes;
+            if (annioNacimiento>annio)
+    {
+        cout<<"Error "<<endl;
+
+    }
+    else if (annioNacimiento==annio&&mesNacimiento>mes)
+        {
+           cout<<"Error "<<endl;
+
+    }
+    else if (annioNacimiento==annio&&mesNacimiento==mes&&diaNacimiento>dia)
+        {
+           cout<<"Error "<<endl;
+
+        }
+    else
+    {
+        int respectivaFecha , respectivoMes;
 
     if ( dia < diaNacimiento  )
     {
@@ -242,7 +368,7 @@ void Fecha::CalcularEdad()
         respectivaFecha =  dia - diaNacimiento;
     }
     else
-        respectivaFecha =  dia - diaNacimiento;
+        {respectivaFecha =  dia - diaNacimiento;}
 
     if( mes < mesNacimiento )
     {
@@ -251,10 +377,55 @@ void Fecha::CalcularEdad()
         respectivoMes = mes - mesNacimiento;
     }
     else
+    {
         respectivoMes = mes - mesNacimiento;
 
     printf("\n Su respectiva edad es la siguiente en años meses y días:\n");
-    cout<<" Años: " <<annio - annioNacimiento <<"   Mes: " << respectivoMes <<"   Dia: " << respectivaFecha;
+    cout<<" Años: " <<annio - annioNacimiento <<"   Mes: " << respectivoMes <<"   Dia: " << respectivaFecha;}
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*int respectivaFecha , respectivoMes;
+
+    if ( dia < diaNacimiento  )
+    {
+        dia = dia + 30;
+        mes = mes - 1;
+        respectivaFecha =  dia - diaNacimiento;
+    }
+    else
+        {respectivaFecha =  dia - diaNacimiento;}
+
+    if( mes < mesNacimiento )
+    {
+        mes = mes + 12;
+        annio = annio - 1 ;
+        respectivoMes = mes - mesNacimiento;
+    }
+    else
+    {
+        respectivoMes = mes - mesNacimiento;
+
+    printf("\n Su respectiva edad es la siguiente en años meses y días:\n");
+    cout<<" Años: " <<annio - annioNacimiento <<"   Mes: " << respectivoMes <<"   Dia: " << respectivaFecha;}*/
+
 
 }
 

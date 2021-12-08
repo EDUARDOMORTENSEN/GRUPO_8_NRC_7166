@@ -165,7 +165,7 @@ bool Fecha::verificarFecha(){
 
         return false;
     }
-    if(annio>annioNacimiento || annio<2021 ){
+    if(annio>annioNacimiento  ){
 
         return false;
     }
@@ -188,6 +188,25 @@ bool Fecha::verificarFechaNacimiento(){
     if(annioNacimiento<1900){
         return false;
     }
+    if(annioNacimiento>annio){
+            return false;
+
+	}
+	else{
+		if(annioNacimiento==annio){
+			if(mesNacimiento>mes){
+				return false;
+			}
+			else{
+				if(mesNacimiento==mes){
+					if(diaNacimiento>dia){
+						return false;
+					}
+				}
+			}
+
+			}
+	}
 
 
 
@@ -196,6 +215,7 @@ bool Fecha::verificarFechaNacimiento(){
 
 
 }
+
 bool Fecha:: entero(char *a){
       for(int i = 0; i<strlen(a); i++){
            if(!isdigit(a[i])){

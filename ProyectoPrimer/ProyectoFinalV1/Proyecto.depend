@@ -411,3 +411,60 @@
 	<stdlib.h>
 	<string.h>
 
+1638897728 source:c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\proyectoprimer\proyectofinalv1\lista.cpp
+	"Lista.h"
+
+1638897728 c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\proyectoprimer\proyectofinalv1\lista.h
+	"Nodo.h"
+	"Persona.h"
+	"Maestro.h"
+	<iostream>
+	<stdlib.h>
+	<ctime>
+	<sstream>
+
+1638897728 c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\proyectoprimer\proyectofinalv1\nodo.h
+	"Persona.h"
+	"Maestro.h"
+
+1638897728 c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\proyectoprimer\proyectofinalv1\persona.h
+	<iostream>
+
+1638897728 c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\proyectoprimer\proyectofinalv1\maestro.h
+	<iostream>
+
+1638897728 source:c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\proyectoprimer\proyectofinalv1\maestro.cpp
+	"Persona.h"
+	"Maestro.h"
+
+1638897728 source:c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\proyectoprimer\proyectofinalv1\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Persona.h"
+	"Maestro.h"
+	"Lista.h"
+	"Nodo.h"
+	"procesos.h"
+	"Validacion.h"
+
+1638897728 c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\proyectoprimer\proyectofinalv1\procesos.h
+	<iostream>
+	<cstring>
+	<string>
+	<fstream>
+	<iomanip>
+	<math.h>
+	"Persona.h"
+	"Maestro.h"
+
+1638897728 c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\proyectoprimer\proyectofinalv1\validacion.h
+	<iostream>
+	<stdlib.h>
+	<string.h>
+
+1638897728 source:c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\proyectoprimer\proyectofinalv1\nodo.cpp
+	"Nodo.h"
+
+1638897728 source:c:\users\pc\onedrive\escritorio\estructura de datos 2021-2022\proyectoprimer\proyectofinalv1\persona.cpp
+	"Persona.h"
+
