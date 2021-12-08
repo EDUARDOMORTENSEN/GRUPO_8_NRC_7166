@@ -468,3 +468,60 @@
 1631281104 source:c:\users\josue\documents\estructuras\proyecto final primer parcial\persona.cpp
 	"Persona.h"
 
+1638892774 source:c:\users\josue\documents\estructuras\grupo_8_nrc_7166\proyectoprimer\proyecto final primer parcial\lista.cpp
+	"Lista.h"
+
+1638892757 c:\users\josue\documents\estructuras\grupo_8_nrc_7166\proyectoprimer\proyecto final primer parcial\lista.h
+	"Nodo.h"
+	"Persona.h"
+	"Maestro.h"
+	<iostream>
+	<stdlib.h>
+	<ctime>
+	<sstream>
+
+1638838078 c:\users\josue\documents\estructuras\grupo_8_nrc_7166\proyectoprimer\proyecto final primer parcial\nodo.h
+	"Persona.h"
+	"Maestro.h"
+
+1631281104 c:\users\josue\documents\estructuras\grupo_8_nrc_7166\proyectoprimer\proyecto final primer parcial\persona.h
+	<iostream>
+
+1638839855 c:\users\josue\documents\estructuras\grupo_8_nrc_7166\proyectoprimer\proyecto final primer parcial\maestro.h
+	<iostream>
+
+1638839890 source:c:\users\josue\documents\estructuras\grupo_8_nrc_7166\proyectoprimer\proyecto final primer parcial\maestro.cpp
+	"Persona.h"
+	"Maestro.h"
+
+1638904944 source:c:\users\josue\documents\estructuras\grupo_8_nrc_7166\proyectoprimer\proyecto final primer parcial\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Persona.h"
+	"Maestro.h"
+	"Lista.h"
+	"Nodo.h"
+	"procesos.h"
+	"Validacion.h"
+
+1638904914 c:\users\josue\documents\estructuras\grupo_8_nrc_7166\proyectoprimer\proyecto final primer parcial\procesos.h
+	<iostream>
+	<cstring>
+	<string>
+	<fstream>
+	<iomanip>
+	<math.h>
+	"Persona.h"
+	"Maestro.h"
+
+1631281104 c:\users\josue\documents\estructuras\grupo_8_nrc_7166\proyectoprimer\proyecto final primer parcial\validacion.h
+	<iostream>
+	<stdlib.h>
+	<string.h>
+
+1638838123 source:c:\users\josue\documents\estructuras\grupo_8_nrc_7166\proyectoprimer\proyecto final primer parcial\nodo.cpp
+	"Nodo.h"
+
+1631281104 source:c:\users\josue\documents\estructuras\grupo_8_nrc_7166\proyectoprimer\proyecto final primer parcial\persona.cpp
+	"Persona.h"
+
