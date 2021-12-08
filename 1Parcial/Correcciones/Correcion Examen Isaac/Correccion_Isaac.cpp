@@ -85,8 +85,34 @@ int main ()
     diaNacimiento=atoi(variable);
 
     validar_fecha(diaNacimiento,mesNacimiento,anioNacimiento);
+    if(anioNacimiento>anioActual){
+    	cout<<"\nError"<<endl;
+    	
+	}
+	else{
+		if(anioNacimiento==anioActual){
+			if(mesNacimiento>mesActual){
+				cout<<"\nError"<<endl;
+			}
+			else{
+				if(mesNacimiento==mesActual){
+					if(diaNacimiento>diaActual){
+						cout<<"\nError"<<endl;
+					}
+					else{
+						calcularEdad( anioActual , mesActual, diaActual, anioNacimiento, mesNacimiento, diaNacimiento);
+					}
+				}
+				else{
+					calcularEdad( anioActual , mesActual, diaActual, anioNacimiento, mesNacimiento, diaNacimiento);
+				}
+			}
+		}
+	//calcularEdad( anioActual , mesActual, diaActual, anioNacimiento, mesNacimiento, diaNacimiento);
+		
+	}
 
-    calcularEdad( anioActual , mesActual, diaActual, anioNacimiento, mesNacimiento, diaNacimiento);
+    //calcularEdad( anioActual , mesActual, diaActual, anioNacimiento, mesNacimiento, diaNacimiento);
 
     return 0;
 }
@@ -170,7 +196,7 @@ void validar_fecha(int& dia, int& mes, int& anio)
 
 void validar_anio(int& anio,int& anioActual)
 {
-    while(anio>anioActual)
+    if(anio>anioActual)
     {
         cout<<" el anio de Nacimiento no puede ser mayor que el anio actual, por favor vuelva a ingresar"<<endl;
         cin>>anio;
