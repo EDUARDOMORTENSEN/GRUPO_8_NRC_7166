@@ -1,3 +1,10 @@
+/******************  Universidad de las Fuerzas Armadas ESPE  ************************
+ *				Carrera: Software													 *
+ *				Autores: Eduardo Mortensen, Richard Alban,							 *
+ *						Isaac Escobar, Josue Ferrin,							     *
+ *				Fecha de creación: 29/11/2021										 *
+ *				Fecha de modificación: 07/12/2021									 *
+ *************************************************************************************/
 #include <iostream>
 #include <stdlib.h>
 #include "Persona.h"
