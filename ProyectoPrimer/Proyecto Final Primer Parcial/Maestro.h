@@ -10,7 +10,7 @@ class Maestro
 	public:
 		Maestro();
 		~Maestro();
-		Maestro(string _primerNombre,string _apellido,string materiadicta);
+		Maestro(string _primerNombre,string _apellido,string materiadicta,int nrc);
 		void setPrimerNombre(string _primerNombre);
 		string getPrimerNombre();
 		void setApellido(string _apellido);
@@ -20,6 +20,9 @@ class Maestro
 		void setMateriadicta(string _materiadicta);
 		string getMateriadicta();
 
+		void setNrc(int _nrc);
+		int getNrc();
+
 
 	protected:
 
@@ -28,6 +31,7 @@ class Maestro
         string apellido;
 		string correo;
 		string materiadicta;
+		int nrc;
 
 };
 

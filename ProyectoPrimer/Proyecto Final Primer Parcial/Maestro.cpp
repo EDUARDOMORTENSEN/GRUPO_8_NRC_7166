@@ -13,10 +13,11 @@ Maestro::~Maestro()
 }
 
 
-Maestro::Maestro(string _primerNombre,string _apellido,string _materiadicta){
+Maestro::Maestro(string _primerNombre,string _apellido,string _materiadicta,int _nrc){
 	this->primerNombre = _primerNombre;
 	this->apellido = _apellido;
 	this->materiadicta= _materiadicta;
+	this->nrc=_nrc;
 	this->correo = "";
 }
 
@@ -44,5 +45,13 @@ void Maestro::setMateriadicta(string _materiadicta){
 }
 string Maestro::getMateriadicta(){
 	return this->materiadicta;
+}
+
+
+void Maestro::setNrc(int _nrc){
+	this->nrc= _nrc;
+}
+int Maestro::getNrc(){
+	return this->nrc;
 }
 

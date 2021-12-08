@@ -105,13 +105,16 @@ Maestro agregarMaestro(Lista lista)
     string primerNombre;
     string apellido;
     string materiadicta;
+    int nrc;
     cout<<"Ingrese el primer nombre: ";
     primerNombre = ingresarLetra();
     cout<<"Ingrese su apellido: ";
     apellido= ingresarLetra();
     cout<<"Ingrese la Materia: ";
     materiadicta= ingresarLetra();
-    Maestro maestro(primerNombre,apellido,materiadicta);
+    cout<<"Ingrese el NRC: ";
+    nrc=ingresarEntero();
+    Maestro maestro(primerNombre,apellido,materiadicta,nrc);
     cout<<"Se ha ingresado correctamente los datos"<<endl;
     system("pause");
     return maestro;

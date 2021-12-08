@@ -87,8 +87,8 @@ void generarMaterias(float nota1, float nota2, float nota3, Persona persona,Maes
     fichero<<"Cedula: "<<persona.getCedula()+"\n";
     fichero<<"Nombre: " +persona.getPrimerNombre()+" "+persona.getSegundoNombre()+ " " + persona.getApellido() +"\n";
     fichero<<"Direccion: " + persona.getDireccion()+"\t\tTelefono: "+persona.getTelefono()+ "\tCorreo: " + persona.getCorreo()+"@espe.edu.ec" +"\n";
-    fichero<<"Profesor: "+maestro.getPrimerNombre()+" "+maestro.getApellido() +" " +"Asignatura "+" "+maestro.getMateriadicta()+"\n";
-    fichero<<"Nota1: "<<fixed<<setprecision(2)<<nota1<<"\tNota2: "<<fixed<<setprecision(2)<<nota2<<"Nota3: "<<fixed<<setprecision(2)<<nota3<<"\tPromedio: "<<fixed<<setprecision(2)<<promedioNotas<<"\n";
+    fichero<<"Profesor: "<<maestro.getPrimerNombre()<<" "<<maestro.getApellido()<<" "<<"\tAsignatura: "<<maestro.getMateriadicta()<<" "<<"\tNrc "<<setprecision(5)<<maestro.getNrc()<<"\n";
+    fichero<<"Nota1: "<<fixed<<setprecision(2)<<nota1<<"\tNota2: "<<fixed<<setprecision(2)<<nota2<<"\tNota3: "<<fixed<<setprecision(2)<<nota3<<"\n";
     if(promedioNotas>=14)
         {
             cout<<"Aprobado "<<endl;
