@@ -1,6 +1,8 @@
+
+
 /******************  Universidad de las Fuerzas Armadas ESPE  ************************
  *				Carrera: Software													 *
- *				Autores: Issac Escobar							                     *
+ *				Autores: Eduardo Mortensen							                     *
  *				Fecha de creación: 08/12/2021										 *
  *				Fecha de modificación: 08/12/2021									 *
  *************************************************************************************/
